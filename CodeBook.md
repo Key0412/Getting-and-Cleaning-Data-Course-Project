@@ -74,7 +74,7 @@ str(read.table("./tidy_data_1.txt"))
 The resulting variables in the **tidy_data_2** archive are the same as the tidy_data_1, except for the removal of **values** and the addition of:
 
 * **average**: average of each variable for each activity and each subject.
-    + Ex.: The combination "subject = 1, activity = walking_downstairs, domain = time, signal = body_acceleration, axis = x, measure = mean" has several observations in the column **values** of the tidy_data_1 set, the average of these observations is 0.272154196, and is shown in the appropriate row of the **average** column.
+    + Ex.: The combination "subject = 1, activity = laying, domain = time, signal = body_acceleration, axis = x, measure = mean" has several observations in the column **values** of the tidy_data_1 set, the average of these observations is 0.2215982439, and is shown in the appropriate row of the **average** column.
     
 ```{r}
 head(read.table("./tidy_data_2.txt"))
